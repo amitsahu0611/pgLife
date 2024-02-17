@@ -20,7 +20,7 @@ const Home = () => {
                 <form id="search-form" method="GET">
                     <div className="input-group city-search">
                         <input type="text" className="form-control input-city" id="city" name="city"
-                            placeholder="Enter your city to search for PGs" />
+                            placeholder="Enter your city to search for Home" />
                         <div className="input-group-append">
                             <button type="submit" className="btn btn-secondary">
                                 <i className="fa fa-search"></i>
@@ -31,17 +31,19 @@ const Home = () => {
             </div>
 
             {/* {{!-- ----------- container part end ----------------- --}} */}
-            <div classNameName="page-container px-4" id="about">
-                <h1 classNameName="text-center mb-5"></h1>
-                <div classNameName="row gx-5 mt-5">
+            <div className="page-container px-4" id="about">
+                <h1 className="text-center mb-5"></h1>
+                <div className="row gx-5 mt-5">
 
-                    <div classNameName="col-md-6 shadow p-3 pt-5 mb-5 bg-body rounded text-center mt-5">
+                    <div className='d-flex gap-3'>
+                    <div className="col-md-6 shadow p-3 pt-5 mb-5 bg-body rounded text-center mt-5">
                         <img src={about} alt="about" height="200px" />
                     </div>
-                    <div classNameName="col-md-6 text-center fs-5 py-4 mt-5">
+                    <div className="col-md-6 text-center fs-5 py-4 mt-5">
                         <p>"PGlife is your comprehensive companion for PG living. Find ideal accommodations, connect with roommates, and access our student library for academic resources, creating a seamless and enriching experience for students in PGs.".
                         </p>
-                        <Link to="/about"><button classNameName="shadow p-2 mb-3 bg-light rounded">About</button></Link>
+                        <Link to="/about"><button className="shadow p-2 mb-3 bg-light rounded">About</button></Link>
+                    </div>
                     </div>
                 </div>
             </div>

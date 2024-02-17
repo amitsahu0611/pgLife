@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="header sticky-top">
             <nav className="navbar navbar-expand-md navbar-light pt-0">
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt='logo' style={{ height: "80px" }} />
+                    <img src={logo} alt='logo' style={{ height: "80px",paddingLeft:'40px' }} />
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
                     <span className="navbar-toggler-icon"></span>
